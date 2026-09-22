@@ -3,6 +3,8 @@ export type FloodLevel = 0 | 1 | 2 | 3 | 4
 export type FloodReading = {
   id: string
   level: FloodLevel
+  lat?: number
+  lng?: number
   timestamp: string
   smsSent: boolean
 }
